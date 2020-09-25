@@ -11,7 +11,7 @@ void setup() {
   mySerial.begin(9600);
   Serial.println("Hi-mySerial");
   Serial.println("Micro Project Thailand ~^.^~ ");
-  pinMode(13, OUTPUT);
+  pinMode(led, OUTPUT);
 }
 
 void loop() {
@@ -23,11 +23,11 @@ void loop() {
 
     if (inChar == '1') {
       Serial.println("H");
-      digitalWrite(13, HIGH);
+      digitalWrite(led, HIGH);
     }
     else if (inChar == '0') {
       Serial.println("L");
-      digitalWrite(13, LOW);
+      digitalWrite(led, LOW);
     }
 
   }
