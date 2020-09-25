@@ -10,6 +10,7 @@ void setup() {
   Serial.begin(9600);
   mySerial.begin(9600);
   Serial.println("Hi-mySerial");
+  Serial.println("Micro Project Thailand ~^.^~ ");
   pinMode(13, OUTPUT);
 }
 
