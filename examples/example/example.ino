@@ -1,7 +1,6 @@
 #include <SoftwareSerial.h>
 SoftwareSerial mySerial(10, 11); //RX,TX
 
-#include <ArduinoJson.h>
 String inString = "";
 const int led = 13;
 
