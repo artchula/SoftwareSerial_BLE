@@ -1,5 +1,5 @@
 #include <SoftwareSerial.h>
-SoftwareSerial mySerial(10, 11); //RX,TX
+SoftwareSerial mySerial(11, 12); //RX,TX
 
 String inString = "";
 const int led = 13;
